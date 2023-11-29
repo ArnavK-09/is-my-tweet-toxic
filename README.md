@@ -3,7 +3,13 @@
 <p align="center"><img alt="hero" height="100%" width="100%" src="https://fav.farm/😡" /></p>
 Welcome to "Is My Tweet Toxic?" – an interactive web application designed to analyze the sentiment of your tweets and determine if they contain toxic content or if you are unintentionally engaging in bullying behavior. This project utilizes TensorFlow.js models for natural language processing and leverages Arrow js reactivity within a static HTML page. The combination of powerful machine learning and responsive web design ensures a seamless user experience.
 
-## 🎳 Features
+## 🪙 Table of Contents
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+
+## Features
 
 - **Bullying Detection:** Detect potential bullying behavior in your tweets.
 - **User-Friendly Interface:** Simple one-page HTML layout with responsive design for an intuitive user experience.

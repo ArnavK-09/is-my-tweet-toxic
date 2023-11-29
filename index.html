@@ -53,6 +53,7 @@
     display: grid;
     font-family: "Rubik Wet Paint", sans-serif;
     place-items: center;
+    height: 100vh;
   }
 
   /* themes  */
@@ -318,7 +319,7 @@
       .load(0.8)
       .then(async (model) => {
         console.log(`[TOXICITY] Model Classification Process Started...`);
-        const sentence = input.value.toString().trim();
+        const sentence = input.value.toString();
         console.log(`[VALIDATOR] Passed Tweet Input: ${sentence}`);
         await model
           .classify(sentence)
